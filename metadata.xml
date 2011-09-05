@@ -13,10 +13,15 @@
 		</dc:creator>
 
 		<t3package:hasVersion>
-			<t3package:Version rdf:about="http://typo3.org/extension/tt_news/version/1.0.0" t3package:number="1.0.0" t3package:status="stable">
+			<t3package:Version rdf:about="http://typo3.org/extension/tt_news/version/1.0.0" t3package:versionNumber="1.0.0" t3package:status="stable">
 				<t3package:depends>
 					<rdf:Description about="http://typo3.org/extension/extbase" />
 				</t3package:depends>
+			</t3package:Version>
+		</t3package:hasVersion>
+
+		<t3package:hasVersion>
+			<t3package:Version rdf:about="http://typo3.org/extension/tt_news/version/0.2.0" t3package:versionNumber="0.2.0" t3package:status="alpha">
 			</t3package:Version>
 		</t3package:hasVersion>
 	</t3package:Extension>

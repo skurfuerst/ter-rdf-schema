@@ -3,8 +3,19 @@
 	xmlns:dc="http://purl.org/dc/terms/"
 	xmlns:t3metrics="http://typo3.org/ns/2011/metrics#">
 
+	<!-- for the most recent version, we also attach the metrics directly to the extension for easier access -->
+	<rdf:Description rdf:about="http://typo3.org/extension/tt_news">
+		<t3metrics:linesOfCode>100</t3metrics:linesOfCode>
+		<t3metrics:cyclomaticComplexity>extremely high ;-)</t3metrics:cyclomaticComplexity>
+	</rdf:Description>
+
 	<rdf:Description rdf:about="http://typo3.org/extension/tt_news/version/1.0.0">
 		<t3metrics:linesOfCode>100</t3metrics:linesOfCode>
 		<t3metrics:cyclomaticComplexity>extremely high ;-)</t3metrics:cyclomaticComplexity>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://typo3.org/extension/tt_news/version/0.2.0">
+		<t3metrics:linesOfCode>10</t3metrics:linesOfCode>
+		<t3metrics:cyclomaticComplexity>super simple</t3metrics:cyclomaticComplexity>
 	</rdf:Description>
 </rdf:RDF>

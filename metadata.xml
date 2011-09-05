@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/terms/"
+	xmlns:t3package="http://typo3.org/ns/2011/package#">
+
+	<t3package:Extension rdf:about="http://typo3.org/extension/tt_news">
+		<t3package:key>tt_news</t3package:key>
+
+		<dc:title>A news system</dc:title>
+		<dc:description>Some longer text explaining tt_news</dc:description>
+		<dc:creator>
+			<rdf:Description rdf:about="http://typo3.org/user/rupi" />
+		</dc:creator>
+
+		<t3package:hasVersion>
+			<t3package:Version rdf:about="http://typo3.org/extension/tt_news/version/1.0.0" t3package:number="1.0.0" t3package:status="stable">
+				<t3package:depends>
+					<rdf:Description about="http://typo3.org/extension/extbase" />
+				</t3package:depends>
+			</t3package:Version>
+		</t3package:hasVersion>
+	</t3package:Extension>
+</rdf:RDF>

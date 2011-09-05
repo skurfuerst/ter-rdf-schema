@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rev="http://purl.org/stuff/rev#">
+	<rdf:Description rdf:about="http://typo3.org/extension/tt_news/version/1.0.0">
+		<rev:hasReview>
+			<rev:Review>
+				<rev:reviewer>
+					<rdf:Description rdf:about="http://typo3.org/user/robert" />
+				</rev:reviewer>
+			</rev:Review>
+		</rev:hasReview>
+	</rdf:Description>
+</rdf:RDF>

@@ -12,6 +12,10 @@
 			<rdf:Description rdf:about="http://typo3.org/user/rupi" />
 		</dc:creator>
 
+		<t3package:currentVersion>
+			<rdf:Description rdf:about="http://typo3.org/extension/tt_news/version/1.0.0" />
+		</t3package:currentVersion>
+
 		<t3package:hasVersion>
 			<t3package:Version rdf:about="http://typo3.org/extension/tt_news/version/1.0.0" t3package:versionNumber="1.0.0" t3package:status="stable">
 				<t3package:depends>
